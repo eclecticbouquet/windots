@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.33/schema.json",
+  "app_specific_configuration_path": "C:/Users/Lyric/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Swap",
+  "default_workspace_padding": 1,
+  "default_container_padding": 1,
+  "transparency": true,
+  "transparency_alpha": 225,
+  "animation": {
+    "enabled": false,
+    "duration": 400,
+    "style": "EaseInCubic",
+    "fps": 60
+  },
+  "border": true,
+  "border_width": 5,
+  "border_style": "Rounded",
+  "border_implementation": "Windows",
+  "border_offset": -1,
+  "stackbar": {
+    "mode": "Never"
+  },
+  "theme": {
+    "palette": "Catppuccin",
+    "name": "Mocha"
+  },
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "I",
+          "layout": "BSP"
+        },
+        {
+          "name": "II",
+          "layout": "RightMainVerticalStack"
+        },
+        {
+          "name": "III",
+          "layout": "UltrawideVerticalStack"
+        }
+      ]
+    }
+  ]
+}
