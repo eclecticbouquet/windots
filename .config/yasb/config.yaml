@@ -38,7 +38,7 @@ bars:
         [
           "wallpapers",
           "windows_workspaces",
-          "active_window",
+          "active_window"
         ]
       center: [
           "clock",
@@ -51,6 +51,7 @@ bars:
           "komorebi_active_layout",
           "power_menu"
         ]
+widgets:
   wallpapers:
     type: "yasb.wallpapers.WallpapersWidget"
     options:
@@ -98,7 +99,7 @@ bars:
       label: "{%a %d, %b %H:%M}"
       label_alt: "{%A %d %B %Y, %H:%M}"
       locale: 'en_EN'
-      timezones: ["America/Chicago"]
+      timezones: ["[REDACTED]"]
   weather:
     type: "yasb.weather.WeatherWidget"
     options:
@@ -108,7 +109,7 @@ bars:
       api_key: '3bf4cf9a7c3f40d6b31174128242807'
       update_interval: 600
       hide_decimal: true
-      location: 'USA Okalahoma City 73128'
+      location: '[REDACTED]'
       callbacks:
         on_left: "toggle_label"
       icons:
@@ -161,11 +162,12 @@ bars:
     options:
       hide_if_offline: true
       label: "{icon}"
-      layouts: ['bsp', 'right_main_vertical_stack', 'ultrawide_vertical_stack']
+      layouts: ['bsp', 'right_main_vertical_stack', 'ultrawide_vertical_stack', 'grid']
       layout_icons:
         bsp: "BSP"
         right_main_vertical_stack: "RM-STACK"
         ultrawide_vertical_stack: "W-STACK"
+        grid: "GRID"
         monocle: "MONOCLE"
         maximised: "MAX"
         floating: "FLOATING"

@@ -4,7 +4,7 @@ Set-Alias -Name which -Value "Get-Command"
 
 # Functions
 function opti {
-    ssh lyna@opti5040 -p 25701
+    ssh [REDACTED]
 }
 function ff {
     cd&& cls&& fastfetch

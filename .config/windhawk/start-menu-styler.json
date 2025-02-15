@@ -1,0 +1,10 @@
+{
+    "theme": "Windows11_Metro10",
+    "controlStyles[0].target": "Border#AcrylicBorder",
+    "controlStyles[0].styles[0]": "Background:=<AcrylicBrush BackgroundSource=\"Backdrop\" TintColor=\"Black\" TintOpacity=\"0.1\" />",
+    "webContentCustomJs": "",
+    "webContentStyles[0].target": "#chatButtonRight",
+    "webContentStyles[0].styles[0]": "display: none !important",
+    "resourceVariables[0].variableKey": "",
+    "resourceVariables[0].value": ""
+  }
